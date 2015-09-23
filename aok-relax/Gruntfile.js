@@ -28,11 +28,14 @@ module.exports = function(grunt) {
         dest: '../../aok-relax/www/aok-relax.min.js'
       }
     }
+	  
   });
 
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
+
+  
   // Default task(s).
   grunt.registerTask('default', ['uglify']);
 
