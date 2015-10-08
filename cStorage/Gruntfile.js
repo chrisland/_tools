@@ -9,10 +9,10 @@ module.exports = function(grunt) {
       },
       build: {
         src: [
-	        '../../cljs_tools/src/cStorage.js',
+	        '../../cStorage/src/cStorage.js',
 
         ],
-        dest: '../../cljs_tools/src/cStorage.min.js'
+        dest: '../../cStorage/src/cStorage.min.js'
       }
     }
 	  
